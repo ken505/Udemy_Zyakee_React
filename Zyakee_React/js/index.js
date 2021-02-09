@@ -76,4 +76,52 @@
   // console.log(arr6);
   // const arr7 = [...arr4, ...arr5];
   // console.log(arr7);
+  // map や filter を使った配列の処理。
+  // const nameArr1 = ["田中", "佐藤", "斉藤"];
+  // for (let i = 0; i < nameArr1.length; i++) {
+  //   console.log(nameArr1[i]);
+  //   console.log(`${i + 1}番目は${nameArr1[i]}です。`);
+  // }
+  // const nameArr2 = nameArr1.map((name)=> {
+  //   return name;
+  // })
+  // console.log(nameArr2);
+  // nameArr1.map((name) => console.log(`わしは${name}じゃ`));
+  // nameArr1.map((name, i) => console.log(`${i + 1}番目は${name}じゃろ`));
+  // // const numArr = [1, 2, 3, 4, 5];
+  // const newNumArr = numArr.filter((num) => {
+  //   return num % 2 === 1;
+  // });
+  // console.log(newNumArr);
+  // const newNameArr = nameArr1.map((name) => {
+  //   if (name === "斉藤") {
+  //     return name;
+  //   } else {
+  //     return `${name}さん`;
+  //   }
+  // });
+  // console.log(newNameArr);
+  // 三項演算子
+  // 条件 ? 条件が true の時の処理 : 条件が false の時の処理 ;
+  // const val1 = 1 > 0 ? "trueじゃ" : "falseじゃ";
+  // console.log(val1);
+  // const num = "1300";
+  // const formattedNum =
+  //   typeof num === "number" ? num.toExponential() : "数値を入力するんじゃ!";
+  // console.log(formattedNum);
+  // const checkSum = (num1, num2) => {
+  //   return num1 + num2 > 100 ? "１００を超えとるのう":"１００超えてないのう";
+  // }
+  // console.log(checkSum(100,1));
+  // 論理演算子の本当の意味 && ||
+  const flag1 = true;
+  const flag2 = true;
+
+  if (flag1 || flag2) {
+    console.log("１か２はtrueじゃのう");
+  }
+
+  if (flag1 && flag2) {
+    console.log("１と２はtrueじゃけぇ");
+  }
 }
