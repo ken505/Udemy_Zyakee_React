@@ -114,14 +114,20 @@
   // }
   // console.log(checkSum(100,1));
   // 論理演算子の本当の意味 && ||
-  const flag1 = true;
-  const flag2 = true;
-
-  if (flag1 || flag2) {
-    console.log("１か２はtrueじゃのう");
-  }
-
-  if (flag1 && flag2) {
-    console.log("１と２はtrueじゃけぇ");
-  }
+  // const flag1 = true;
+  // const flag2 = true;
+  // if (flag1 || flag2) {
+  //   console.log("１か２はtrueじゃのう");
+  // }
+  // if (flag1 && flag2) {
+  //   console.log("１と２はtrueじゃけぇ");
+  // }
+  // || 左辺が false なら右辺を返す。
+  // const num = null;
+  // const fee = num || "金額未設定です";
+  // console.log(fee);
+  // // && 左辺が true なら右辺を返す。
+  // const num2 = 100;
+  // const fee2 = num2 && "何か設定されたけぇ";
+  // console.log(fee2);
 }
